@@ -5,7 +5,6 @@ from typing import Any
 
 import psycopg
 from psycopg.types.json import Jsonb
-
 from strands.session.repository_session_manager import RepositorySessionManager
 from strands.session.session_repository import SessionRepository
 from strands.types.exceptions import SessionException

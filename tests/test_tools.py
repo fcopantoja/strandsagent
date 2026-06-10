@@ -1,5 +1,6 @@
-import pytest
 from unittest.mock import AsyncMock, MagicMock, patch
+
+import pytest
 
 from app.tools import (
     calculate_tip,
@@ -11,7 +12,6 @@ from app.tools import (
     get_weather,
     roll_dice,
 )
-
 
 # --- get_weather ---
 
